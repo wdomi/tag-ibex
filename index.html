@@ -4,17 +4,22 @@
 const individSelect = document.getElementById("individSelect");
 
 function buildIndividDropdown(){
-  individSelect.innerHTML = `<option value=""></option>`;
+
+  individSelect.innerHTML = '<option value=""></option>';
+
   const seen = new Set();
 
   data.forEach(d=>{
     const key = d.Individ_ID + " " + d.Individ_Name;
+
     if(seen.has(key)) return;
+
     seen.add(key);
 
     const o = document.createElement("option");
     o.value = d.Individ_ID;
     o.textContent = key;
+
     individSelect.appendChild(o);
   });
 }
