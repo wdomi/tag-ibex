@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+};
+
+const individSelect = document.getElementById("individSelect");
+
+function buildIndividDropdown(){
+  individSelect.innerHTML = `<option value=""></option>`;
+  const seen = new Set();
+
+  data.forEach(d=>{
+    const key = d.Individ_ID + " " + d.Individ_Name;
+    if(seen.has(key)) return;
+    seen.add(key);
+
+    const o = document.createElement("option");
+    o.value = d.Individ_ID;
+    o.textContent = key;
+    individSelect.appendChild(o);
+  });
+}
+
+individSelect.onchange = ()=>{
+  if(!individSelect.value){
+    applyFilters();
+    return;
+  }
+  render(data.filter(d => d.Individ_ID === individSelect.value));
+};
+
+rNum.onchange = lNum.onchange = applyFilters;
+
+async function loadCSVAutomatically() {
+  try {
+    const response = await fetch(CSV_FILE);
+    const csvText = await response.text();
+
+    data = parseCSV(csvText);
+
+    updateVisibleColumns();
+    applyLanguage();
+
+    buildDropdown(lNum, [
+      ...new Set([
+        ...unique("Mark_L_1_Nr"),
+        ...unique("Mark_L_2_Nr")
+      ])
+    ]);
+
+    buildDropdown(rNum, [
+      ...new Set([
+        ...unique("Mark_R_1_Nr"),
+        ...unique("Mark_R_2_Nr")
+      ])
+    ]);
+
+    buildColors(
+      lColors,
+      [...new Set([...unique("Mark_L_1_color"),...unique("Mark_L_2_color")])],
+      selectedLColors
+    );
+
+    buildColors(
+      rColors,
+      [...new Set([...unique("Mark_R_1_color"),...unique("Mark_R_2_color")])],
+      selectedRColors
+    );
+
+    render(data);
+    buildIndividDropdown();
+    applyLanguage();
+
+  } catch (err) {
+    console.error("Error loading CSV:", err);
+    alert("Could not load PNGP_Stambecchi.csv");
+  }
+}
+
+loadCSVAutomatically();
+</script>
+
+</body>
+</html>
