@@ -12,7 +12,7 @@ italiano,Individ_ID,Age_Cohort,Individ_Name,tag,Mark_L_1_color,Mark_L_1_Nr,Mark_
 ,V02Z,2022,dizzy,GV(45)/B(60)O(27),green,,violet,45,blue,60,orange,27,,,m
 ,V05P,2014,molotov,GW/VG,green,,white,,violet,,green,,,,m
 ,V05X,2016,plodze,GY(99)/B(55)B(25),green,,yellow,99,blue,55,blue,25,,,m
-,V01U,2014,anubi,O(28)G/VW,orange,28,green,,,,,,,,m
+,V01U,2014,anubi,O(28)G/VW,orange,28,green,,,,,,,perso marche dx (VW),m
 ,V08Z,2020,leffe,O(70)G/B(10)W,orange,70,green,,blue,10,white,,,,m
 ,V04Z,2020,cadore,O(37)G/WO(85),orange,37,green,,white,,orange,85,,,m
 ,V01X,2016,enea,O(83)O(45)/WW,orange,83,orange,45,white,,white,,,,m
