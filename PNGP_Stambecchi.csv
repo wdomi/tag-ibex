@@ -14,8 +14,8 @@ italiano,Individ_ID,Age_Cohort,Individ_Name,tag,Mark_L_1_color,Mark_L_1_Nr,Mark_
 ,V05P,2014,molotov,GW/VG,green,,white,,violet,,green,,,,m
 ,V05X,2016,plodze,GY(99)/B(55)B(25),green,,yellow,99,blue,55,blue,25,,,m
 ,V01U,2014,anubi,O(28)G/VW,orange,28,green,,,,,,,perso marche dx (VW),m
-,V08Z,2020,leffe,O(70)G/B(10)W,orange,70,green,,blue,10,white,,,,
-,V04Z,2020,cadore,O(37)G/WO(85),orange,37,green,,white,,orange,85,,,
+,V08Z,2020,leffe,O(70)G/B(10)W,orange,70,green,,blue,10,white,,,,m
+,V04Z,2020,cadore,O(37)G/WO(85),orange,37,green,,white,,orange,85,,,m
 ,V01X,2016,enea,O(83)O(45)/WW,orange,83,orange,45,white,,white,,,,m
 ,V01Y,2018,leone,O(77)V/B(63)Y(84),orange,77,violet,,blue,63,yellow,84,,,m
 ,V08W,2018,ciock,O(58)W/-,orange,58,white,,,,,,,perso marche sx (YG),m
@@ -27,7 +27,7 @@ italiano,Individ_ID,Age_Cohort,Individ_Name,tag,Mark_L_1_color,Mark_L_1_Nr,Mark_
 ,V05W,2015,gaio,VW/GY(32),violet,,white,,green,,yellow,32,,,m
 ,V08Q,2014,francis,VY(90)/GO(71),violet,,yellow,90,green,,orange,71,,,m
 ,V10X,2020,berio,VY(21)/VY(25),violet,,yellow,21,violet,,yellow,25,,,m
-,V06Z,2022,ezio,WG/WG,white,,green,,white,,green,,,,
+,V06Z,2022,ezio,WG/WG,white,,green,,white,,green,,,,m
 ,V07W,2016,saro,WG/Y(43)Y(22),white,,green,,yellow,43,yellow,22,,,m
 ,V10W,2016,uovo,WO(57)/VO(58),white,,orange,57,violet,,orange,58,,,m
 ,V05Y,2021,filo,WO(83)/GV(10),white,,orange,83,green,,violet,10,,Vittorio Emanuele II,m
@@ -40,9 +40,9 @@ italiano,Individ_ID,Age_Cohort,Individ_Name,tag,Mark_L_1_color,Mark_L_1_Nr,Mark_
 ,V06Y,2019,kai,Y(39)G/VO(75),yellow,39,green,,violet,,orange,75,,,m
 ,V02W,2018,gap,Y(53)O(82)/WB(36),yellow,53,orange,82,white,,blue,36,,,m
 ,V09Y,2018,finch,Y(28)O(72)/WW,yellow,28,orange,72,white,,white,,,,m
-,V05Z,2019,pisson,Y(70)V(80)/Y(78)O(87),yellow,70,violet,80,yellow,78,orange,87,,,
+,V05Z,2019,pisson,Y(70)V(80)/Y(78)O(87),yellow,70,violet,80,yellow,78,orange,87,,,m
 ,V04U,2016,sputnik,Y(75)W/-,yellow,75,white,,,,,,,perso marche dx (BO),m
-,V07Z,2022,cranio,Y(34)W/WV(50),yellow,34,white,,white,,violet,50,,,
+,V07Z,2022,cranio,Y(34)W/WV(50),yellow,34,white,,white,,violet,50,,,m
 ,V06X,2018,marcus,Y(35)Y(20)/VG,yellow,35,yellow,20,violet,,green,,,,m
 ,V10L,2010,juno,,,,,,,,,,giallo bande rosse,,f
 ,V07N,2009,diletta,Y(41)O/WO,yellow,41,orange,,white,,orange,,,,f
